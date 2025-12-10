@@ -1,31 +1,31 @@
 # Additional binaries available for direct download:
-# - Linux ARMv7 (32-bit ARM): ygrep-1.0.0-linux-armv7.tar.gz
-# - Linux x86_64 musl (Alpine/static): ygrep-1.0.0-linux-x86_64-musl.tar.gz
-# - Linux ARM64 musl (Alpine/static): ygrep-1.0.0-linux-aarch64-musl.tar.gz
-# Download from: https://github.com/yetidevworks/ygrep/releases/download/1.0.0/
+# - Linux ARMv7 (32-bit ARM): ygrep-1.0.1-linux-armv7.tar.gz
+# - Linux x86_64 musl (Alpine/static): ygrep-1.0.1-linux-x86_64-musl.tar.gz
+# - Linux ARM64 musl (Alpine/static): ygrep-1.0.1-linux-aarch64-musl.tar.gz
+# Download from: https://github.com/yetidevworks/ygrep/releases/download/1.0.1/
 
 class Ygrep < Formula
   desc "Fast, local, indexed code search for AI coding assistants"
   homepage "https://github.com/yetidevworks/ygrep"
   license "MIT"
-  version "1.0.0"
+  version "1.0.1"
   version_scheme 1
 
   on_macos do
     on_arm do
-      url "https://github.com/yetidevworks/ygrep/releases/download/v1.0.0/ygrep-1.0.0-darwin-arm64.tar.gz"
-      sha256 "8e4e8a0cbd207785f8825f20f5c9f29ec2d320c296aefe1e159f070c8734911c"
+      url "https://github.com/yetidevworks/ygrep/releases/download/v1.0.1/ygrep-1.0.1-darwin-arm64.tar.gz"
+      sha256 "be4a767e044c1c19df64f2cc7c750e073591212807f2c4a09d1503bb5ef6dc56"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/yetidevworks/ygrep/releases/download/v1.0.0/ygrep-1.0.0-linux-x86_64.tar.gz"
-      sha256 "6cf136dcadbe0ceba2879897faddf5a60fe5d7a4bd12d4f239ef4bb2074aa1cd"
+      url "https://github.com/yetidevworks/ygrep/releases/download/v1.0.1/ygrep-1.0.1-linux-x86_64.tar.gz"
+      sha256 "09f4f760e189940fea1c513644c2ae642e9ef1d16ecff5c721f86474b882354d"
     end
     on_arm do
-      url "https://github.com/yetidevworks/ygrep/releases/download/v1.0.0/ygrep-1.0.0-linux-aarch64.tar.gz"
-      sha256 "70acb018961c24f06e4fb10f5fdc8a8bd3dad1be6db24c2c27b465ddee631499"
+      url "https://github.com/yetidevworks/ygrep/releases/download/v1.0.1/ygrep-1.0.1-linux-aarch64.tar.gz"
+      sha256 "e0f760fe13a960d7f8cdb123239cfe829bb1c4026a006ac71439ae58984460a3"
     end
   end
 
