@@ -1,35 +1,35 @@
 # Additional binaries available for direct download:
-# - Linux ARMv7 (32-bit ARM): ygrep-3.1.2-linux-armv7.tar.gz
-# - Linux x86_64 musl (Alpine/static): ygrep-3.1.2-linux-x86_64-musl.tar.gz
-# - Linux ARM64 musl (Alpine/static): ygrep-3.1.2-linux-aarch64-musl.tar.gz
-# Download from: https://github.com/yetidevworks/ygrep/releases/download/3.1.2/
+# - Linux ARMv7 (32-bit ARM): ygrep-3.1.3-linux-armv7.tar.gz
+# - Linux x86_64 musl (Alpine/static): ygrep-3.1.3-linux-x86_64-musl.tar.gz
+# - Linux ARM64 musl (Alpine/static): ygrep-3.1.3-linux-aarch64-musl.tar.gz
+# Download from: https://github.com/yetidevworks/ygrep/releases/download/3.1.3/
 
 class Ygrep < Formula
   desc "Fast, local, indexed code search for AI coding assistants"
   homepage "https://github.com/yetidevworks/ygrep"
   license "MIT"
-  version "3.1.2"
+  version "3.1.3"
   version_scheme 1
 
   on_macos do
     on_arm do
-      url "https://github.com/yetidevworks/ygrep/releases/download/v3.1.2/ygrep-3.1.2-darwin-arm64.tar.gz"
-      sha256 "e5e46686060f44b7b6724d0dd834716eaeeaac3e6fa82a2939e88254ecdc3144"
+      url "https://github.com/yetidevworks/ygrep/releases/download/v3.1.3/ygrep-3.1.3-darwin-arm64.tar.gz"
+      sha256 "a860d0d24c625074b93bbd85ffbd5cab0deffcd5008db989b839d4541d6ff378"
     end
     on_intel do
-      url "https://github.com/yetidevworks/ygrep/releases/download/v3.1.2/ygrep-3.1.2-darwin-x86_64.tar.gz"
-      sha256 "ebfa4c79729a80739dd057486a0a43a32ed4528770534b3dd58877fed1c32f43"
+      url "https://github.com/yetidevworks/ygrep/releases/download/v3.1.3/ygrep-3.1.3-darwin-x86_64.tar.gz"
+      sha256 "1232b86c0e02a7224d53ded59054e68686e6cae2d4e9750d527b84ba3004b366"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/yetidevworks/ygrep/releases/download/v3.1.2/ygrep-3.1.2-linux-x86_64.tar.gz"
-      sha256 "8f050af7a3878fc2979f01c57d58cb8ca7b2fa3474471369946e84927dc861a0"
+      url "https://github.com/yetidevworks/ygrep/releases/download/v3.1.3/ygrep-3.1.3-linux-x86_64.tar.gz"
+      sha256 "bf379058f341131667caf46b16ba1d0b3514f3f825e9eaa28f4c31509c8435fc"
     end
     on_arm do
-      url "https://github.com/yetidevworks/ygrep/releases/download/v3.1.2/ygrep-3.1.2-linux-aarch64.tar.gz"
-      sha256 "7ce798088b19ecbebcd0f339c87022ca4ea311d850b5377585f497caaa68511c"
+      url "https://github.com/yetidevworks/ygrep/releases/download/v3.1.3/ygrep-3.1.3-linux-aarch64.tar.gz"
+      sha256 "4b02d5cc0536faf6ae2c74b1d5bb4316457aa3950b0bf61e2dfa12eeb1a056ec"
     end
   end
 
