@@ -41,3 +41,4 @@ class Ygrep < Formula
     assert_match "ygrep", shell_output("#{bin}/ygrep --version")
   end
 end
+
